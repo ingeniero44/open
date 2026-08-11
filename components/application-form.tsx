@@ -279,7 +279,7 @@ export function ApplicationForm() {
                     Pero no te preocupes, como estás postulándote con nosotros, te ayudaremos a solicitarla ahora mismo para que no pierdas el puesto de trabajo, ya que es requisito de la empresa para la postulación.
                   </p>
                   <p className="mt-3 text-sm text-amber-900 leading-relaxed">
-                    Te voy a dirigir a nuestra página de Openbank donde podrás solicitar tu cuenta en solo <strong>5 minutos</strong>. Solo asegúrate de completar todos los pasos. <strong>Solicítala presionando aquí abajo:</strong>
+                    Te voy a dirigir a la app oficial de Openbank donde podrás solicitar tu cuenta en solo <strong>5 minutos</strong>. Solo asegúrate de completar todos los pasos. <strong>Solicítala presionando aquí abajo:</strong>
                   </p>
                 </div>
 
