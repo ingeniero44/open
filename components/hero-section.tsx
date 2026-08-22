@@ -18,7 +18,7 @@ export function HeroSection() {
           {/* Título */}
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
             Bienvenido a{" "}
-            <span className="text-primary">Danone</span>
+            <span className="text-primary">Bodegas MG</span>
           </h1>
 
           {/* Descripción */}
