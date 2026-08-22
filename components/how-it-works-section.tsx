@@ -8,18 +8,18 @@ const steps = [
   },
   {
     icon: Package,
-    title: "Recibe los productos",
-    description: "Te llevamos los productos directamente a tu domicilio sin costo adicional.",
+    title: "Elige tu puesto",
+    description: "Selecciona el puesto que mejor se adapte a tu perfil y experiencia.",
   },
   {
     icon: PackageCheck,
-    title: "Empaca y organiza",
-    description: "Desde tu casa, empaca los productos siguiendo nuestras sencillas instrucciones.",
+    title: "Incorpórate al equipo",
+    description: "Únete a nuestro equipo de trabajo y comienza tu capacitación.",
   },
   {
     icon: Banknote,
     title: "Recibe tu pago",
-    description: "Cada semana recibes $4,000 pesos puntuales por tu trabajo.",
+    description: "Recibes tu salario puntual, que puede aumentar según tu puesto y horas extras.",
   },
 ]
 
@@ -32,7 +32,7 @@ export function HowItWorksSection() {
             ¿Cómo funciona?
           </h2>
           <p className="text-muted-foreground text-balance">
-            Comenzar es muy sencillo. Sigue estos pasos y empieza a generar ingresos desde casa.
+            Comenzar es muy sencillo. Sigue estos pasos y forma parte de nuestro equipo de trabajo.
           </p>
         </div>
 

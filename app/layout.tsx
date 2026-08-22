@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'BodegasMX | Trabaja desde casa',
-  description: 'Genera ingresos desde la comodidad de tu hogar empacando y organizando productos. Salario semanal de $4,000 MXN.',
+  title: 'Danone | Únete a nuestro equipo de trabajo',
+  description: 'Sé parte de nuestro equipo de trabajo. Tu salario puede aumentar dependiendo de tu puesto y de las horas extras.',
   generator: 'v0.app',
   icons: {
     icon: [
