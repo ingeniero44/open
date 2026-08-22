@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowDown, Home, Truck, Banknote } from "lucide-react"
+import { ArrowDown, Banknote } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -18,15 +18,12 @@ export function HeroSection() {
           {/* Título */}
           <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
             Bienvenido a{" "}
-            <span className="text-primary">BodegasMX</span>
+            <span className="text-primary">Danone</span>
           </h1>
 
           {/* Descripción */}
           <p className="mb-8 text-lg text-muted-foreground md:text-xl text-balance">
-            Genera ingresos desde la comodidad de tu hogar empacando y organizando productos como cosméticos, juguetes, accesorios de cocina, productos comestibles y más. Nosotros nos encargamos de llevarte los productos y recogerlos una vez listos.
-{" "}
-            <strong className="text-foreground"></strong>{" "}
-            
+            Sé parte de nuestro equipo de trabajo. Te recordamos que tu salario puede aumentar dependiendo de tu puesto y de las horas extras.
           </p>
 
           {/* Tarjeta de salario */}
@@ -48,27 +45,7 @@ export function HeroSection() {
           </div>
 
           {/* Features */}
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
-                <Home className="h-5 w-5 text-muted-foreground" />
-              </div>
-              <div className="text-left">
-                <p className="font-medium text-foreground">Desde tu casa</p>
-                <p className="text-sm text-muted-foreground">Sin traslados</p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
-                <Truck className="h-5 w-5 text-muted-foreground" />
-              </div>
-              <div className="text-left">
-                <p className="font-medium text-foreground">Entrega a domicilio</p>
-                <p className="text-sm text-muted-foreground">Nosotros llevamos y recogemos</p>
-              </div>
-            </div>
-
+          <div className="mx-auto max-w-sm">
             <div className="flex items-center gap-3 rounded-xl border border-border bg-card p-4">
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-secondary">
                 <Banknote className="h-5 w-5 text-muted-foreground" />
